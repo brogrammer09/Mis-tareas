@@ -14,8 +14,8 @@ int main(){
 	do{
 		cout<<"\t\t----------------elige una opcion--------------\n";
 		cout<<"\t\t------------1.Ingreso de sus clientes----------------\n";
-		cout<<"\t\t------------2.Venta de teléfonos celulares------------\n";
-		cout<<"\t\t----------3.Gestión de recargas electrónicas-----------\n";
+		cout<<"\t\t------------2.Venta de telÃ©fonos celulares------------\n";
+		cout<<"\t\t----------3.GestiÃ³n de recargas electrÃ³nicas-----------\n";
 		cout<<"\t\t------------------4.Salir------------------\n";
 		cin>>Opcion;
 		
@@ -40,7 +40,7 @@ int main(){
 			if(numTelefono>8){
 				cout<<"debe ser un numero de telefono Guatemalteco"<<endl;fflush(stdin);
 			}else if(numTelefono<8){
-				cout<<"tiene mas de 8 digitos debe ser un numero de Guatemala";
+				cout<<"tiene mas de 8 digitos debe ser un numero de Guatemala"<<endl;
 			} else{
 				cout<<"ha ingresado un numero guatemalteco"<<endl;fflush(stdin);
 			}
@@ -54,27 +54,27 @@ int main(){
 		do{
 				system("cls");
 			cout<<"\t\t--------Has elegido compra de celulares--------"<<endl;fflush(stdin);
-			cout<<"\t\t---------  1.Samsung Note 10 Q 9,299.°° -----------------"<<endl;fflush(stdin);
-			cout<<"\t\t---------- 2.Samsung Galaxy S20 Q 7,656.°°--------------------"<<endl;fflush(stdin);
-			cout<<"\t\t---------- 3.LG K42 Q 1,299.°° ----------------------"<<endl;fflush(stdin);
-			cout<<"\t\t---------- 4.LG K62 Q 1,799.°°   -------------------"<<endl;fflush(stdin);
-			cout<<"\t\t---------- 5.Xiaomi Mi 10T Q 4,799.°°-----------------"<<endl;fflush(stdin);
-			cout<<"\t\t---------- 6.Samsung Galaxy S21 Q10,399.°° -----------------"
-			cout<<"\t\t---------- 7.Huawei P40 Q8,999.°° -------------------"
-			cout<<"\t\t----------------8. -------------------"
+			cout<<"\t\t---------  1.Samsung Note 10 Q 9,299.Â°Â° -----------------"<<endl;fflush(stdin);
+			cout<<"\t\t---------- 2.Samsung Galaxy S20 Q 7,656.Â°Â°--------------------"<<endl;fflush(stdin);
+			cout<<"\t\t---------- 3.LG K42 Q 1,299.Â°Â° ----------------------"<<endl;fflush(stdin);
+			cout<<"\t\t---------- 4.LG K62 Q 1,799.Â°Â°   -------------------"<<endl;fflush(stdin);
+			cout<<"\t\t---------- 5.Xiaomi Mi 10T Q 4,799.Â°Â°-----------------"<<endl;fflush(stdin);
+			cout<<"\t\t---------- 6.Samsung Galaxy S21 Q10,399.Â°Â° -----------------"<<endl;fflush(stdin);
+			cout<<"\t\t---------- 7.Huawei P40 Q8,999.Â°Â° -------------------"<<endl;fflush(stdin);
+			cout<<"\t\t----------------8. -------------------"<<endl;fflush(stdin);
 			
 			if(clave == 1){
 				cout<<"\t\tHas elegido comprar el telefono Samsung Note 10"<<endl;fflush(stdin);
-				cout<<"\t\tEl precio del Celular es Q 9,299.°°"<<endl;fflush(stdin);
+				cout<<"\t\tEl precio del Celular es Q 9,299.Â°Â°"<<endl;fflush(stdin);
 				cout<<"Quieres comprar otro Celular?"<<endl;fflush(stdin);
 				cin>>Ele;
 			} else if(clave == 2){
 				cout<<"Has seleccionado el telefono Samsung S20"<<endl;fflush(stdin);
-				cout<<"El Precio del Celular es Q 7,656.°° "<<endl;fflush(stdin);
+				cout<<"El Precio del Celular es Q 7,656.Â°Â° "<<endl;fflush(stdin);
 				cout<<"Deseas Comprar otro Celular?"<<endl;fflush(stdin);
 			}else if(clave == 3){
 				cout<<"has seleccionado LG K42"<<endl;fflush(stdin);
-				cout<<"su precio es Q 1,299.°°"<<endl;fflush(stdin);
+				cout<<"su precio es Q 1,299.Â°Â°"<<endl;fflush(stdin);
 				cout<<"Quieres Comprar otro celular?"<<endl;fflush(stdin);
 				cin>>Ele;
 			}
